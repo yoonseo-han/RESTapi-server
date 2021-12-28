@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Server</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@forevolve/bootstrap-dark@1.0.0/dist/css/bootstrap-dark.min.css" />
+</head>
+<body>
+    <nav id="links" class="bg-light text-dark py-2">
+        <div class="container m-3">
+            <h4><a href="/">Home</a></h4> <br>
+            <h4><a href="/about">About</a></h4>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div>
+            <form action="" id="form" class="text-center mt-4 form-group d-flex flex-row">
+                <input type="text" name="username" id="username" placeholder="username" class="form-control mx-5">
+                <button id="submit" class="btn btn-outline-light">Submit</button>
+            </form>
+        </div>
+    
+        <div id="list" class="text-center mt-4 container"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./restFront.js"></script>
+</body>
+</html>
